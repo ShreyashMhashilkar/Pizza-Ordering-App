@@ -8,9 +8,12 @@ const Navbar = () => {
         <div class="container-fluid">
           <Link to='' className="navbar-brand" ><h3 style={{ color: '#fff' }}>PIZZA ORDERING APP</h3></Link>
 
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          {/* <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
               <Link to="/" className="nav-link active" aria-current="page"><h3 style={{ color: '#fff' }}>HOME</h3></Link>
